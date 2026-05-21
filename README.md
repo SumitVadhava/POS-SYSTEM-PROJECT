@@ -1,4 +1,4 @@
-# 🛒 Freshmart - Modern Point of Sale (POS) System
+# 🛒 Freshmart - Point of Sale (POS) System
 
 Freshmart POS is a full-stack, responsive, and robust **Point of Sale (POS) System** built using the MERN stack (MongoDB, Express, React, Node.js). Designed for retail and grocery operations, it provides seamless inventory tracking, cart management, user authorization, and dynamic invoice generation with PDF downloads.
 
@@ -8,20 +8,20 @@ Freshmart POS is a full-stack, responsive, and robust **Point of Sale (POS) Syst
 
 Here is a visual walkthrough of the Freshmart POS System interface:
 
-### 🔐 1. User Authentication & Login
-| **Login Page** | **Sign Up Page** |
+### 🔐 1. User Authentication & Home Dashboard
+| **Login Page** | **Home Page (Dashboard Grid)** |
 |:---:|:---:|
-| ![Login Page](./ScreenShots/S1.png) | ![Sign Up Page](./ScreenShots/S2.png) |
+| ![Login Page](./ScreenShots/S1.png) | ![Product Dashboard](./ScreenShots/S2.png) |
 
-### 🛒 2. Dashboard, Inventory & Cart
-| **Home Page (Dashboard Grid)** | **Manage Items / Catalog** |
+### 🛒 2. Inventory & Cart Management
+| **Manage Items / Catalog** | **Cart Page & Checkout** |
 |:---:|:---:|
-| ![Product Dashboard](./ScreenShots/S3.png) | ![Item Catalog](./ScreenShots/S4.png) |
+| ![Item Catalog](./ScreenShots/S3.png) | ![Cart & Invoice Detail](./ScreenShots/S4.png) |
 
-### 🧾 3. Cart Summary & Generated Invoices
-| **Cart Page & Checkout** | **Bills Page / PDF Invoice Generator** |
+### 🧾 3. Generated Invoices & Customer Database
+| **Bills Page / PDF Invoice Generator** | **Customer View** |
 |:---:|:---:|
-| ![Cart & Invoice Detail](./ScreenShots/S5.png) | ![Generated Invoice & Print View](./ScreenShots/S6.png) |
+| ![Generated Invoice & Print View](./ScreenShots/S5.png) | ![Customer View](./ScreenShots/S6.png) |
 
 ---
 
@@ -133,10 +133,4 @@ npm run dev
 
 ## 👨‍💻 Author
 
-- **Sumit Vadhava** - *Lead Developer & Architect*
-
----
-
-## 📄 License
-
-This project is licensed under the ISC License.
+- **Sumit Vadhava** - *Lead Developer*

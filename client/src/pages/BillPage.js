@@ -49,8 +49,29 @@ const BillsPage = () => {
     });
   };
 
-  const handleEdit = (record) => {
-    message.info(`Edit clicked for ${record.customerName} (ID: ${record._id})`);
+  const handleEdit = async (record) => {
+    try {
+      const updatedName = window.prompt("Edit customer name:", record.customerName);
+      if (!updatedName) {
+        return;
+      }
+
+      const updatedNumber = window.prompt("Edit contact number:", record.customerNumber);
+      if (!updatedNumber) {
+        return;
+      }
+
+      await axios.post("/bills/update-bill", {
+        billId: record._id,
+        customerName: updatedName,
+        customerNumber: updatedNumber,
+      });
+      message.success("Bill updated successfully");
+      getAllBills();
+    } catch (error) {
+      console.error(error);
+      message.error("Failed to update the bill");
+    }
   };
 
   const handleDelete = async (record) => {
