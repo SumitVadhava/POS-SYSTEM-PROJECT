@@ -1,0 +1,42 @@
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / output
+dist/
+build/
+coverage/
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Client / server folders
+client/node_modules/
+client/build/
+server/node_modules/
+server/dist/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.sqlite
+*.sqlite3
+*.tgz
+.cache/
+.pnp.*
