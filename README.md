@@ -14,10 +14,9 @@ Here is a visual walkthrough of the Freshmart POS System interface:
 | ![Login Page](./ScreenShots/S1.png) | ![Product Dashboard](./ScreenShots/S2.png) |
 
 ### 🛒 2. Inventory & Cart Management
-| **Manage Items / Catalog** | **Cart Page & Checkout** |
+| **Cart Page** | **Bill Page** |
 |:---:|:---:|
-| ![Item Catalog](./ScreenShots/S3.png) | ![Cart & Invoice Detail](./ScreenShots/S4.png) |
-| ![Item Catalog](./ScreenShots/S3.png) | ![Cart & Invoice Detail](./ScreenShots/S4.png) |
+| ![Item Catalog](./ScreenShots/S3.png) | ![Invoice Detail](./ScreenShots/S4.png) |
 
 ### 🧾 3. Generated Invoices & Customer Database
 | **Bills Page / PDF Invoice Generator** | **Customer View** |
